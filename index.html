@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./header.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src='./index.js'></script>
+
+</head>
+<body>
+    <div>
+        <div id="Header" class="flex-container">
+            <div class="score flex-child">
+                Score : 0
+            </div>
+            <div class="flex-child heading">
+                Play 2048
+            </div>
+            <div class="restart tooltip">
+                <span class="tooltiptext">restart</span>
+                <button class="btn" onclick=""><i class="material-icons">&#xe5d5;</i></button>
+            </div>
+        </div>
+        <div id="game-board"></div>
+    </div>
+</body>
+</html>
